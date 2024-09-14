@@ -1,0 +1,198 @@
+html, body {
+    height: 100%; /* Ensure the body takes up the full height */
+    margin: 0; /* Remove default margin */
+}
+
+footer {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    background-color: #1F2937;          /* Light gray background color */
+    padding: 40px;                      /* Space inside the footer */
+    text-align: center;                 /* Center text alignment */
+    width: 100%;                        /* Make the footer full width */
+    position: relative;                 /* Position it relative to the body */
+    bottom: 0;                          /* Stick it to the bottom of the page */
+    color: white;
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;    /* Center the quote text */
+    width: 100%;
+    background-color: #E5E7EB;
+    padding: 70px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.quote .from {
+    font-size: 16px;
+    font-weight: 1000;
+    font-style: normal;
+    color: black;
+          /* Align the author's name to the right */
+    margin-top: 20px;       /* Space between the quote text and the author's name */
+    display: block;         /* Ensure it's block-level to go under the main text */
+    width: 100%;            /* Ensure it spans the width of the quote container */
+    position: relative;     /* Keep it inside the flow of the container */
+}
+
+
+
+.call {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    background-color: #3882f6;          /* Blue background color */
+    padding: 50px;                      /* Space inside the box */
+    padding-left: 120px;
+    text-align: left;                   /* Align text to the left */
+    width: 60%;                         /* Set width of the box */
+    margin: 0 auto; 
+    position: relative;                 /* Position it relative to the body */                  
+    color: white;
+    border-radius: 15px;                /* Round corners */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-weight: 1000;
+    display: flex;                      /* Enable flexbox layout */
+    flex-direction: column;             /* Align items vertically */
+    align-items: flex-start;            /* Align items to the start (left) */
+}
+
+.call .call2 {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.signup-button {
+    background-color: #3882f6; /* Blue background */
+    color: white; /* White text color */
+    border: 2px solid white; /* White border with 2px width */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 5px; /* Round the corners */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    align-self: flex-end; /* Align button to the end (right) */
+    margin-top: -70px; /* Adjust vertical position if needed */
+    position: relative; /* Allows left adjustment */
+    left: -300px; /* Move the button slightly to the left */
+}
+
+
+.signup-button:hover {
+    background-color: #2870d7; /* Slightly darker blue background on hover */
+    border: 2px solid #2870d7; /* Match border color with the background on hover */
+}
+.hero {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    background-color: #1F2937;
+    width: 100%;
+}
+
+.head {
+    display: flex; /* Use flexbox for horizontal layout */
+    flex-direction: column; /* Stack logo, main-text, and subtext vertically */
+    justify-content: space-between; /* Space between items */
+    padding: 20px 150px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in the total width */
+    position: relative;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px; /* Space between logo and main-text */
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 50px; /* Space between main-text and subtext */
+    margin-top: 100px;
+    
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.links {
+    display: flex; /* Use flexbox for horizontal layout */
+    gap: 70px; /* Space between links */
+    color: white;
+    position: absolute; /* Position links to the right of the container */
+    right: 150px; /* Align to the right with padding */
+    top: 20px; /* Align to the top of the padding */
+}
+.signup-button2 {
+    background-color: #3882f6; /* Blue background */
+    color: white; /* White text color */
+    border: 2px solid white; /* White border with 2px width */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 5px; /* Round the corners */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    display: block; /* Make the button a block element */
+     /* Center align the button */
+    width: 200px; /* Set a fixed width if needed */
+    margin-top: 50px;
+}
+.pizza {
+    width: 20%; /* Adjust size as needed */
+    position: absolute; /* Position it absolutely within .head */
+    top: 200px; /* Move the image down 200 pixels from the top of the .head */
+    right: 500px; /* Move the image 50 pixels from the right edge of the .head */
+}
+.info {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    margin-top: 100px;
+}
+
+.info-head {
+    font-size: 36px;
+    font-weight: 1000;
+    text-align: center;
+    margin-bottom: 30px; /* Space between the title and boxes */
+}
+
+.info-content {
+    display: flex; /* Use flexbox for horizontal layout */
+    gap: 100px; /* Space between boxes */
+    justify-content: center; /* Center the boxes horizontally */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.info-item {
+    display: flex; /* Use flexbox for vertical layout */
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center items horizontally */
+    width: 200px; /* Set a fixed width for each item */
+}
+
+.info-box {
+    background-color: #3882f6; /* Background color for each box */
+    border-radius: 10px; /* Round corners of the box */
+    padding: 10px; /* Space inside the box */
+    text-align: center; /* Center text and images inside the box */
+    width: 100%; /* Make the box fill the container width */
+}
+
+.info-image {
+    width: 100%; /* Make the image fill the width of the box */
+    border-radius: 5px; /* Round corners of the image */
+}
+
+.info-text {
+    font-size: 16px; /* Font size for the text */
+    color: #1F2937; /* Text color */
+    margin-top: 10px; /* Space between image and text */
+    text-align: center; /* Center text alignment */
+}
+
